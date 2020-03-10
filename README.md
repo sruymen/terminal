@@ -1,1 +1,1 @@
-# terminal
+JSON for new Windows Terminal

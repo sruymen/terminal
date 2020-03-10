@@ -101,5 +101,10 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+    "keybindings": [
+        { "command": "closeWindow", "keys": ["alt+f4"] },
+        { "command": "splitHorizontal", "keys": ["ctrl+-"]},
+        { "command": "splitVertical", "keys": ["ctrl+\\"]},
+        { "command": "closePane", "keys": ["ctrl+q"]}
+    ]
 }

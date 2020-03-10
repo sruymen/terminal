@@ -20,6 +20,7 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "D:\\OneDrive - Wolters Kluwer\\IT\\Code",
                 "colorScheme": "One Half Dark",
                 "fontFace": "Cascadia Code PL",
                 "cursorShape": "filledBox"
@@ -103,8 +104,16 @@
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
         { "command": "closeWindow", "keys": ["alt+f4"] },
+        { "command": "closePane", "keys": ["ctrl+f4"] },
         { "command": "splitHorizontal", "keys": ["ctrl+-"]},
         { "command": "splitVertical", "keys": ["ctrl+\\"]},
-        { "command": "closePane", "keys": ["ctrl+q"]}
+        { "command": "moveFocusLeft", "keys": ["ctrl+shift+left"]},
+        { "command": "moveFocusRight", "keys": ["ctrl+shift+right"]},
+        { "command": "moveFocusUp", "keys": ["ctrl+shift+up"]},
+        { "command": "moveFocusDown", "keys": ["ctrl+shift+down"]},
+        { "command": "resizePaneLeft", "keys": ["ctrl+shift+alt+left"]},
+        { "command": "resizePaneRight", "keys": ["ctrl+shift+alt+right"]},
+        { "command": "resizePaneUp", "keys": ["ctrl+shift+alt+up"]},
+        { "command": "resizePaneDown", "keys": ["ctrl+shift+alt+down"]}
     ]
 }
